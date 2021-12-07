@@ -1,0 +1,293 @@
+/* css for all*/
+body{margin: 0; padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: #333333;
+    font-size: 15px;
+    line-height: 1.5em;
+}
+p{font-weight: 400;}
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 700; line-height: 1.5em;
+    margin: 0 0 15px;
+}
+a{
+    transition: .5s; text-decoration: none;
+}
+.container{width: 1170px; margin: 0 auto;}
+/*top header aREA*/
+.top-header-area{
+    background: #a88c95; padding: 18px; overflow: hidden;
+}
+.top-header-area .inner-header{
+    overflow: hidden;
+}
+.top-header-area .social-area{
+    float: left;
+    width: 50%;
+}
+.top-header-area .social-area ul{
+    list-style: none;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+.top-header-area .social-area ul li{
+    display: inline-block;
+    margin-right: 5px;   
+}
+.top-header-area .social-area ul li a{
+    background: #d2d2d2;
+    color: #703a4c;
+    width: 30px;
+    height: 28px;
+    display: block;
+    padding-top: 5px;
+    border-radius: 50%;
+    text-align: center;
+    
+}
+.top-header-area .social-area ul li a:hover{
+    background: #6a3144;
+    color: #fff;
+    
+    
+}
+.top-header-area .search-area{
+    float: right;
+    
+}
+.top-header-area .search-area form{
+    width: 315px;
+}
+.top-header-area .search-area input[type="text"]{
+    background: #fff;
+    color: #333333;
+    width: 215px;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px 0 0 5px;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+.top-header-area .search-area input[type="submit"]{
+    background: #97455f;
+    color: #fff;
+    width: 70px;
+    border: 0;
+    border-radius: 0px 5px 5px 0px;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    
+}
+.top-header-area .search-area input[type="submit"]:hover{
+    background: #6a3144;
+    color: #fff;  
+}
+/* logo*/
+.logo-area {
+    background: #ffffff;
+    padding: 15px;
+    text-align: center; 
+}
+.logo-area img{width: 210px;
+max-width: 100%;}
+/* menu area css*/
+.main-menu{
+    background: #97455f;
+    height: 53px;
+}
+.main-menu ul{
+    list-style: none;
+    color: #fff;
+    margin:0 auto;
+    padding: auto 0;
+    text-align: center;
+}
+.main-menu ul li{
+    display: inline-block;
+    margin:0 5px;
+    position: relative;
+}
+
+.main-menu ul li a{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    border: 0;
+    border-radius: 3px;
+    transition: .5s;
+    text-transform: uppercase;
+    display: block;
+    padding: 15px 20px;
+}
+.main-menu ul li a:hover{
+    background: #6a3144;
+    color: #fff;
+    transition: .5s;
+}
+/* Dropdown*/
+.main-menu ul li ul{
+    display:block;
+    position: absolute;
+    text-align:left;
+    text-decoration: none;
+    width: 150px;
+    background: #97455f;
+    left: -999999px;
+    top: 53px;
+    margin: auto;
+}
+.main-menu ul li:hover ul{
+    left: 0px;
+}
+.main-menu ul li ul li{
+    display: block;
+}
+.main-menu ul li ul li a{
+    color: #333333;
+    padding:8px 10px;
+    border: 0;
+    border-radius: 3px;
+    
+    
+}
+.main-menu ul li ul li a:hover{
+    background: #6a3144;
+    color: #fff;
+}
+/* slider area css*/
+.slider_area{margin: 0; width: 100%; overflow: hidden; position: relative;}
+.slider_area .bx-wrapper{border: 0; margin: 0;}
+.slider_area .bx-controls{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    z-index: 99999;
+    height: 10px;
+}
+.slider_area .bx-pager{
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    width: 100%;
+    z-index: 99999;
+    height: 10px;
+}
+.bx-wrapper .bx-pager.bx-default-pager a{
+    background: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 5px solid #6a3144;
+    display: block;
+    margin: 0 10px;
+}
+.slider_area .slider-images{}
+.slider_area .slider-images img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+/* Welcome area css*/
+.welcome_area{
+    background: #fff ;
+    width: 100%;
+    overflow: hidden;
+    padding: 50px 0;
+}
+.welcome_area .inner_welcome_area {overflow: hidden;}
+.welcome_area .inner_welcome_area .left-welcome {width: 46%; float: left; padding:0 2%;}
+.welcome_area .inner_welcome_area .left-welcome h3 { font-size: 30px;
+      font-weight: 300; text-transform: uppercase;
+      letter-spacing: normal;
+}
+.welcome_area .inner_welcome_area .left-welcome p { font-size: 18px ;
+color: #333333;}
+.welcome_area .inner_welcome_area .left-welcome a {margin-top:10px; cursor: pointer; background: #97455f;color: #fff; font-size: 16px;
+padding: 10px 20px;}
+.welcome_area .inner_welcome_area .left-welcome a:hover { background: #6a3144;color: #fff; font-size: 16px;}
+.welcome_area .inner_welcome_area .right-welcome {width: 46%; float: left; padding:0 2%;}
+
+/* sevices area css*/
+.services_area{background: #f5f5f5;padding: 20px 0; width: 100%;overflow: hidden;}
+.services_area .inner_services{ overflow: hidden;}
+.services_area .inner_services h2.title{font-size: 48px; color: #6a3144; font-weight: 600;margin-bottom: 0;text-align: center;}
+.services_area .inner_services p.sub_title{font-size: 18px; color: #333333; text-align: center; margin-top: 15px;}
+.services_area .main_services{ width: 100% ; overflow: hidden ; margin-top: 20px;}
+.services_area .child_services{
+    width: 225px;
+    padding: 130px 68px 95px 90px;
+    float: left;
+    position: relative;
+transition: .5s;
+cursor: pointer;
+box-shadow: 10px 10px 10px #ddd;
+}
+.services_area .child_services:hover{
+        background: #fff;}
+.services_area .child_services h3{ color: #523827; font-size: 100px; opacity: 0.1; font-weight: 700; position: absolute; left:60px; top:60px;}
+.services_area .child_services h4 { font-size: 20px; font-weight: 700; font-family: 'Open Sans'; margin-top: 28px; margin-left: 10px;}
+.services_area .child_services h4 a{ color: #523827; }
+.services_area .child_services h4 a:hover{}
+.services_area .child_services p{ color: #000000; font-size: 14px; opacity: 0.5;}
+
+
+/* Contact css*/
+.contact_area{ background: url(img/q2.png);
+background-size: cover; padding: 30px 0; width: 100%; overflow: hidden;}
+.contact_area .inner-contact{ width: 900px; max-width: 100%; overflow: hidden; margin: 0 auto;}
+.contact_area .inner-contact h2.title{     
+    font-weight: 700;
+    line-height: 1.5em;
+    margin: 0 0 15px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.contact_area .main_contact_form{width: 100%; overflow: hidden; margin-top: 20px; text-align: center;}
+.contact_area .main_contact_form input {
+    background: #fff;
+    border: 0;
+    width: 42%;
+    padding: 15px 3%;
+    float: left;
+    margin: 0 1% 2%;
+    border-radius: 5px;
+    
+}
+.contact_area .main_contact_form textarea {
+    width: 92%;
+    border: 0;
+    padding: 15px 3%;
+    margin: 0 1% 1%;
+    border-radius: 5px;
+}
+.contact_area .main_contact_form input[type="submit"]{
+    background: #97455f;
+    width: 250px;
+    color: #fff;
+    border-radius: 25px;
+    font-size: 21px;
+    font-weight: 600;
+    text-transform: uppercase;
+    float: none;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.contact_area .main_contact_form input[type="submit"]:hover{
+    background: #6a3144;
+    color: #fff;
+}
+/* css for footer*/
+
+.footer_area{ background: #fff; padding: 30px 0; width: 100%; overflow: hidden;}
+.footer_area .inner_footer_area{overflow: hidden;}
+.footer_area .footer-logo{ width: 420px; max-width: 80%; margin: 0 auto 20px; text-align: center;}
+.footer_area .copyright_area{ width: 100%; overflow: hidden; text-align: center;}
+.footer_area .copyright_area p{ color: #6a3144; font-size: 14px; margin-bottom: 0;}
